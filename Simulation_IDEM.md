@@ -40,7 +40,7 @@ Z1_mean=4; Z1_sd=2; Z2_mean=2; Z2_sd=1
 ```
 
 Response $Y_i(t)$ model parameters
-($\beta_{0}, \beta_{K_1}, \beta_{K_2}$,$\beta_{K_3},\beta_{A(t)},\beta_{Q}$,$\beta_Z$,$\epsilon$,$\phi$)
+($\beta_{0}, \beta_{K_1}, \beta_{K_2},\beta_{K_3},\beta_{A(t)},\beta_{Q},\beta_Z,\epsilon,\phi$)
 
 ``` r
 beta0 <- 2; betaK1<-1; betaK2 <-0.25; betaK3<- -2; betaQ<- 0.; betaA<- 1.4; betaZ<- 3;
@@ -48,7 +48,7 @@ epsilon_sd <- 0.1; phi_mean =0; phi_sd =0.2
 ```
 
 Visits indicator $dN_i(t)$ model parameters
-($\gamma_0, \gamma_{A(t)}, \gamma_{Z}, \gamma_{K_1}$,$\gamma_{K_2},\gamma_{K_3},\gamma_{Q}$)
+($\gamma_0, \gamma_{A(t)}, \gamma_{Z}, \gamma_{K_1},\gamma_{K_2},\gamma_{K_3},\gamma_{Q}$)
 
 ``` r
 gamma0 <- -3.5; gammaA<-  0.05;  gammaZ<- 0.5; gammaK1<- 0.1 ; gammaK2<- -0.5;
