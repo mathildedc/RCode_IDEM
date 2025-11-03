@@ -1,18 +1,7 @@
 Simulation Study for IDEM estimator
 ================
 
-<style>
-.math.inline {
-  font-size: 80%;
-}
-</style>
-
-<details>
-
-<summary>
-
-<strong> Simulation Setup</strong>
-</summary>
+### Simulation Setup
 
 Required R packages
 
@@ -65,5 +54,3 @@ Visits indicator $dN_i(t)$ model parameters
 gamma0 <- -3.5; gammaA<-  0.05;  gammaZ<- 0.5; gammaK1<- 0.1 ; gammaK2<- -0.5;
 gammaK3<- -0.05 ; gammaQ<- 2 
 ```
-
-</details>
